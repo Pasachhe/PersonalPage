@@ -8,6 +8,9 @@ $(document).ready(function() {
   }); // initialize animate on scroll library
   renderProfessionalSkills();
   renderExperience();
+  renderOfficialProjects();
+  renderInternProjects();
+  renderSchoolProjects();
 });
 
 function renderProfessionalSkills(){
@@ -71,16 +74,16 @@ function renderProfessionalSkills(){
 function renderExperience(){
   var expset = [
     { "duration":"Dec 2017 - Current","logo" : "images/spiralogics_logo.png", "degreeName":"Software Engineer",
-      "degreeCategory":"Full Stack .Net Developer ","instuteName" : "Spiralogics Intl.","description":"Description" },
+      "degreeCategory":"Full Stack .Net Developer ","instuteName" : "Spiralogics Intl.","description":" " },
     { "duration":"June 2017 - Sept 2017","logo" : "images/websutra_logo.png", "degreeName":"Internship",
-      "degreeCategory":"Training","instuteName" : "WebSutra Technology","description":"Description" },
+      "degreeCategory":"Training","instuteName" : "WebSutra Technology","description":" " },
     
     { "duration":"Sept 2013 - Sept 2017","logo" : "images/Kathmandu_University_Logo.svg", "degreeName":"Master's Degree",
-      "degreeCategory":"Bachelors of Computer Science","instuteName" : "Kathmandu University","description":"Description" },
+      "degreeCategory":"Bachelors of Computer Science","instuteName" : "Kathmandu University","description":" " },
     { "duration":"May 2011 - May 2013","logo" : "images/kuhs_logo.png", "degreeName":"High School",
-      "degreeCategory":"GCE A-Levels Science","instuteName" : "Kathmandu University H.S.","description":"Description" },
+      "degreeCategory":"GCE A-Levels Science","instuteName" : "Kathmandu University H.S.","description":" " },
     { "duration":"2008 - 2011","logo" : "", "degreeName":"Schooling",
-      "degreeCategory":"School Leaving Certificate (SLC)","instuteName" : "Kshitij E.B.S.","description":"Description" },
+      "degreeCategory":"School Leaving Certificate (SLC)","instuteName" : "Kshitij E.B.S.","description":" " },
 
   ]
   var expsetsHtml = ``;//'<p><span style="color: #ff0000;">DDD</span>!!!!!<strong>666666666666</strong></p>';
@@ -110,6 +113,94 @@ function renderExperience(){
   </div>`;
   });
   $('#iExperience').append(expsetsHtml);
+}
+
+
+function renderOfficialProjects(){
+  var projects = [ 
+// {"projectName":"","projectDesc":"", "tools":""},
+    {"projectName":"GB Care API Services","projectDesc":"Web API services for GB Care Client Application Data.", "tools":"VS19, .NET Core , TFS"},
+    {"projectName":"Carisk","projectDesc":"Health care coordination application managing proposal to improve patient-centered outcomes and reduce overall cost of quality care.", "tools":"VS17, .NET Core 2.2, SQL, SVN (later Azure GIT), IIS, React"},
+    {"projectName":"Med Mass Mail","projectDesc":"Subscription based bulk mailing system to the desired recipients.", "tools":"VS17, .NET Core 2.2, SQL,SVN, IIS, DevExtreme, SendGrid, Stripe"},
+    {"projectName":"Cariboo Industrial Electronics Budget Planner","projectDesc":"Budget planning application for an electronic industry to deduce project construction budget.", "tools":"VS17, .NET Core 2.2, SQL, SVN, IIS , DevExtreme, JExcel"},
+    {"projectName":"Restore Rehab Enterprise Data","projectDesc":"Health care enterprise data application for better and efficient referral management and insurance process.", "tools":"VS17, .NET Core 2.0, SQL, SVN, IIS, Docker, DevExtreme"}
+
+    ]
+  var projectsHtml = ``;
+  
+  projects.forEach(ele => {
+    projectsHtml +=  `<div class="row line-below">
+    <div class="col-md-8">
+      <div class="project-card-body">
+        <span class="h5">`+ele.projectName+` : </span>
+        <span> `+ele.projectDesc+`</span>
+      </div>
+    </div>
+    <div class="col-md-4 bg-secondary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+      <div class="project-card-body project-tools">
+        <p >`+ele.tools+`</p>
+      </div>
+    </div>
+  </div>`;
+  });
+  $('#iOfficialProjectList').append(projectsHtml);
+}
+
+function renderInternProjects(){
+  var projects = [
+    {"projectName":"Attendance and Salary Management System","projectDesc":"A web application that maintains the company employee’s Status and records Attendance and Salary automatically on hourly basis.", "tools":"VB2015, ASP.NET MVC, SQL"},
+    {"projectName":"School Management System","projectDesc":"A web application that maintains and publish the record of Teachers, Students, Subjects and Results.", "tools":"VB2015, ASP.NET MVC, SQL"},
+    {"projectName":"Hotel Management System","projectDesc":"A web application that allows to know room availability and book rooms in the hotel.", "tools":"VB2015, ASP.NET MVC, SQL"}
+  
+  ]
+  var projectsHtml = ``;
+  
+  projects.forEach(ele => {
+    projectsHtml +=  `<div class="row line-below">
+    <div class="col-md-8">
+      <div class="project-card-body">
+        <span class="h5">`+ele.projectName+` : </span>
+        <span> `+ele.projectDesc+`</span>
+      </div>
+    </div>
+    <div class="col-md-4 bg-secondary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+      <div class="project-card-body project-tools">
+        <p >`+ele.tools+`</p>
+      </div>
+    </div>
+  </div>`;
+  });
+  $('#iInternProjectList').append(projectsHtml);
+}
+
+function renderSchoolProjects(){
+  var projects = [
+    {"projectName":"Nepal Time","projectDesc":"Desktop based application with modules (Load-shedding Schedule, Nepali Calander , AD-BS Converter, Age Calculator).", "tools":"VB 2008, Access 2002/3 (DB)"},
+    {"projectName":"RMS Web Portal","projectDesc":"Web page of Ram Bhakta Memorial School for interactive information sharing and merit point calculation system with student data.", "tools":"PHP, MYSQL"},
+    {"projectName":"Scientific Calculator","projectDesc":"Android application to do math with formulae and calculating with simple saved formulae.", "tools":"Android Studio"},
+    {"projectName":"Dot Line AI Game","projectDesc":"AI based game for PC similar to Tic-Tac-Toe (Learning Purpose)", "tools":"IDLE Python"},
+    {"projectName":"Inventory Management System","projectDesc":"A full functioning desktop application for management of stock housewith staff, vendor and customer care.", "tools":"VB 2008, Access 2002/03(DB)"},
+    {"projectName":"Beam Balance Simulation","projectDesc":"Graphical Simulation of working beam balance.", "tools":"IDLE Python, TKinter (grahics)"},
+    {"projectName":"Simple Chat System","projectDesc":"Interactive page to chat/comment over.", "tools":"Node JS , MongoDB"}
+  ]
+  var projectsHtml = ``;
+  
+  projects.forEach(ele => {
+    projectsHtml +=  `<div class="row line-below">
+    <div class="col-md-8">
+      <div class="project-card-body">
+        <span class="h5">`+ele.projectName+` : </span>
+        <span> `+ele.projectDesc+`</span>
+      </div>
+    </div>
+    <div class="col-md-4 bg-secondary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+      <div class="project-card-body project-tools">
+        <p >`+ele.tools+`</p>
+      </div>
+    </div>
+  </div>`;
+  });
+  $('#iSchoolProjectList').append(projectsHtml);
 }
 
 

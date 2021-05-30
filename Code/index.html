@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pasachhe</title>
-  <meta name="description" content="Hello world I am here to showcase my portfolio, skils and experience." />
+  <meta name="description" content="Hello world I am here to showcase my portfolio, skils, experience and interests." />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/aos.css" rel="stylesheet">
@@ -30,7 +30,8 @@
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#interest">Interest</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -57,14 +58,12 @@
             </div>
             <div class="section">
               <div class="container">
-                <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#"
-                    rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a
-                    class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                    title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a
-                    class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                    title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a
-                    class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                    title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+                <div class="button-container">
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/sajanpasachhe/" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.youtube.com/channel/UCEYZsNk-3y12dKk25xwqqxw" rel="tooltip" title="Subscribe my channel"><i class="fa fa-youtube"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/sajan-pasachhe-209ba1139/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/sajanpasachhe/" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -150,28 +149,72 @@
         <div id="iExperience"></div>
         
       </div>
-
+    </div>
+    <div class="section" id="projects">
       <div class="container cc-experience">
         <div class="h4 text-center mb-4 title">Projects</div>
         <div class="card">
+          
           <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>March 2016 - Present</p>
-                <div class="h5">CreativeM</div>
+            <div class="col-md-1 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div class="project-card-body cc-experience-header">
+                <div class="h5">...</div>
               </div>
             </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Front End Developer</div>
-                <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                  tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
-                  primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar
-                  curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie
-                  ultricies sollicitudin dui.</p>
+            <div class="col-md-11 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div class="row">
+
+                <div class="col-md-8 project-card-body project-tools">
+                  <div class="h5">Project Description</div>
+                </div>
+                <div class="col-md-4 project-card-body project-tools">
+                  <div class="h5">Environment & Tools</div>
+                </div>
               </div>
             </div>
           </div>
+
+          
+          <div class="row">
+            <div class="col-md-1 bg-professional-proj" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div class="project-card-body cc-experience-header">
+                <div class="h5 project-platform" >Official & Professional </div>
+              </div>
+            </div>
+
+            <div class="col-md-11" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+              <!-- // loop here  -->
+              <div id="iOfficialProjectList"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-1 bg-intern-proj" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div class="project-card-body cc-experience-header">
+                <div class="h5 project-platform" >Intern </div>
+              </div>
+            </div>
+
+            <div class="col-md-11" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+              <!-- // loop here  -->
+              <div id="iInternProjectList"></div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-1 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div class="project-card-body cc-experience-header">
+                <div class="h5 project-platform" >ACADAMIC & OTHERS </div>
+              </div>
+            </div>
+
+            <div class="col-md-11" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+              <!-- // loop here  -->
+              <div id="iSchoolProjectList"></div>
+            </div>
+          </div>
+          
+
         </div>
          
       </div>
@@ -181,17 +224,17 @@
       
     </div>
 
-    <div class="section" id="portfolio">
+    <div class="section" id="interest">
       <div class="container">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
-            <div class="h4 text-center mb-4 title">Portfolio</div>
+            <div class="h4 text-center mb-4 title">Interest</div>
             <div class="nav-align-center">
               <ul class="nav nav-pills nav-pills-primary" role="tablist">
                 <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development"
                     role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i
-                      class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                      class="fa fa-music" aria-hidden="true"></i></a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i
                       class="fa fa-camera" aria-hidden="true"></i></a></li>
               </ul>
@@ -207,17 +250,17 @@
                       href="#web-development">
                       <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Recent Project</div>
-                          <p>Web Development</p>
+                          <div class="h4">Project Adventure</div>
+                          <p>Projects with newer tech and architectures excites me.</p>
                         </figcaption>
                       </figure>
                     </a></div>
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#web-development">
-                      <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/party.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Startup Project</div>
-                          <p>Web Development</p>
+                          <div class="h4">Party</div>
+                          <p>Fun Party & Beer at weekend</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -225,10 +268,10 @@
                 <div class="col-md-6">
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#web-development">
-                      <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/novel.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Food Order Project</div>
-                          <p>Web Development</p>
+                          <div class="h4">Novel</div>
+                          <p>Reading Novel - Whenever & Whereever</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -236,8 +279,8 @@
                       href="#web-development">
                       <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Web Advertising Project</div>
-                          <p>Web Development</p>
+                          <div class="h4">Organize Team</div>
+                          <p>Like to act as a team player. My team should be the best.</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -251,39 +294,41 @@
                 <div class="col-md-6">
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#graphic-design">
-                      <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/listeningmusic.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Triangle Pattern</div>
-                          <p>Graphic Design</p>
+                          <div class="h4">Music</div>
+                          <p>Listening Music</p>
                         </figcaption>
                       </figure>
-                    </a></div>
+                    </a>
+                  </div>
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#graphic-design">
-                      <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/guitar.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Abstract Umbrella</div>
-                          <p>Graphic Design</p>
+                          <div class="h4">Guitar</div>
+                          <p>Playing Guitar</p>
                         </figcaption>
                       </figure>
-                    </a></div>
+                    </a>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#graphic-design">
-                      <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/movie.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Cube Surface Texture</div>
-                          <p>Graphic Design</p>
+                          <div class="h4">Movies</div>
+                          <p>Watching Movie</p>
                         </figcaption>
                       </figure>
                     </a></div>
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#graphic-design">
-                      <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/football.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Abstract Line</div>
-                          <p>Graphic Design</p>
+                          <div class="h4">Football</div>
+                          <p>Playing & Watching Football Game</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -297,19 +342,19 @@
                 <div class="col-md-6">
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#Photography">
-                      <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/snooker.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Photoshoot</div>
-                          <p>Photography</p>
+                          <div class="h4">Snooker</div>
+                          <p>Waiting for you to challenge me.</p><p> Let me tell you, I am not a noob.</p>
                         </figcaption>
                       </figure>
                     </a></div>
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#Photography">
-                      <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/anime.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Wedding Photoshoot</div>
-                          <p>Photography</p>
+                          <div class="h4">Anime</div>
+                          <p>I take inspiration from anime. I am alive because of anime.</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -317,10 +362,10 @@
                 <div class="col-md-6">
                   <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
                       href="#Photography">
-                      <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image" />
+                      <figure class="cc-effect"><img src="images/swimming.jpg" alt="Image" />
                         <figcaption>
-                          <div class="h4">Beach Photoshoot</div>
-                          <p>Photography</p>
+                          <div class="h4">Swimming</div>
+                          <p>Best swimmer ever you will meet. I can win the gold medal from olympics.</p>
                         </figcaption>
                       </figure>
                     </a></div>
@@ -355,49 +400,37 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
-                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg"
+                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/graphic-design-4.jpg"
                       alt="Image" />
-                    <div class="h5 pt-2">Aiyana</div>
-                    <p class="category">CEO / WEBM</p>
+                    <div class="h5 pt-2">...</div>
+                    <p class="category">...</p>
                   </div>
                   <div class="col-lg-10 col-md-9">
-                    <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta
-                      cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus
-                      nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet
-                      nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla
-                      rhoncus eleifend.</p>
+                    <p>...</p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg"
+                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/graphic-design-4.jpg"
                       alt="Image" />
-                    <div class="h5 pt-2">Braiden</div>
-                    <p class="category">CEO / Creativem</p>
+                    <div class="h5 pt-2">...</div>
+                    <p class="category">...</p>
                   </div>
                   <div class="col-lg-10 col-md-9">
-                    <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta
-                      cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus
-                      nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet
-                      nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla
-                      rhoncus eleifend.</p>
+                    <p> ...</p>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg"
+                  <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/graphic-design-4.jpg"
                       alt="Image" />
-                    <div class="h5 pt-2">Alexander</div>
-                    <p class="category">CEO / Webnote</p>
+                    <div class="h5 pt-2">...</div>
+                    <p class="category">...</p>
                   </div>
                   <div class="col-lg-10 col-md-9">
-                    <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta
-                      cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus
-                      nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet
-                      nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla
-                      rhoncus eleifend.</p>
+                    <p> ...</p>
                   </div>
                 </div>
               </div>
@@ -483,15 +516,15 @@
   </div>
   </div>
   <footer class="footer">
-    <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x "
-          aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x "
-          aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x"
-          aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x "
-          aria-hidden="true"></i></a></div>
+    <div class="container text-center">
+      <a class="cc-facebook btn btn-link" href="https://www.facebook.com/sajanpasachhe/"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
+      <a class="cc-youtube btn btn-link " href="https://www.youtube.com/channel/UCEYZsNk-3y12dKk25xwqqxw"><i class="fa fa-youtube fa-2x " aria-hidden="true"></i></a>
+      <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/sajan-pasachhe-209ba1139/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a class="cc-instagram btn btn-link" href="https://www.instagram.com/sajanpasachhe/"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a>
+    </div>
     <div class="h4 title text-center">Pasachhe Sajan</div>
     <div class="text-center text-muted">
-      <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
-          target="_blank">TemplateFlip</a></p>
+      <p>&copy; Pasachhe 2021. All rights reserved.</p>
     </div>
   </footer>
   <script src="js/core/jquery.3.2.1.min.js"></script>
