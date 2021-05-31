@@ -71,6 +71,7 @@ function renderProfessionalSkills(){
   $('#iProfessionalSkills').append(skillsetsHtml);
 }
 
+
 function renderExperience(){
   var expset = [
     { "duration":"Dec 2017 - Current","logo" : "images/spiralogics_logo.png", "degreeName":"Software Engineer",
