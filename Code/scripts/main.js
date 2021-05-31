@@ -52,7 +52,7 @@ function renderProfessionalSkills(){
     {"skillname" : "Team Management", "level" : "95"},
     {"skillname" : "Scrum Teams Meeting", "level" : "95"},
     {"skillname" : "Clean Architecture", "level" : "85"},
-    {"skillname" : "Azile Development", "level" : "70"},
+    {"skillname" : "Agile Development", "level" : "70"},
 
   ]
   var skillsetsHtml = ``;//'<p><span style="color: #ff0000;">DDD</span>!!!!!<strong>666666666666</strong></p>';
@@ -78,7 +78,7 @@ function renderExperience(){
     { "duration":"June 2017 - Sept 2017","logo" : "images/websutra_logo.png", "degreeName":"Internship",
       "degreeCategory":"Training","instuteName" : "WebSutra Technology","description":" " },
     
-    { "duration":"Sept 2013 - Sept 2017","logo" : "images/Kathmandu_University_Logo.svg", "degreeName":"Master's Degree",
+    { "duration":"Sept 2013 - Sept 2017","logo" : "images/Kathmandu_University_Logo.svg", "degreeName":"Bachelor's Degree",
       "degreeCategory":"Bachelors of Computer Science","instuteName" : "Kathmandu University","description":" " },
     { "duration":"May 2011 - May 2013","logo" : "images/kuhs_logo.png", "degreeName":"High School",
       "degreeCategory":"GCE A-Levels Science","instuteName" : "Kathmandu University H.S.","description":" " },
