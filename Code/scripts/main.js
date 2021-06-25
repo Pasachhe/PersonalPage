@@ -205,6 +205,17 @@ function renderSchoolProjects(){
 }
 
 
+function printContent(){
+  var restorepage = $('body').html();
+  var printcontent = $('#experience').clone();
+  var enteredtext = $('#text').val();
+  $('body').empty().html(printcontent);
+  window.print();
+  $('body').html(restorepage);
+  $('#text').html(enteredtext);
+  }
+
+
 // Smooth scroll for links with hashes
 $('a.smooth-scroll')
 .click(function(event) {

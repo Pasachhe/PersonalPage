@@ -2582,7 +2582,8 @@ textarea.form-control:focus, textarea.form-control:active {
   top: 2px;
   right: 0;
   color: #888;
-  font-size: xx-small;//0.8571em;
+  font-size: xx-small;
+  /* //0.8571em; */
   
 }
 
@@ -2605,7 +2606,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: #e6e8da;
 }
 
 .progress-container.progress-primary .progress-value,
