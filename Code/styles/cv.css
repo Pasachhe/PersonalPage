@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #616266;
+    font-size: 14px;
+}
+.p-0{
+    padding: 0;
+}
+
+.mainer .cv-section{
+    padding: 0 0 25px 0;
+}
+
+.mainer .cv-section:first-child{
+    padding: 25px 0;
+}
+
+.cv-section h1, .cv-section h2{
+    font-size: 20px;
+}
+
+.cv-section .inner{
+    padding: 0 25px;
+}
+
+.cv-head{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #142e58;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.cv-head:after{
+    display: block;
+    content: "";
+    border-top: 2px solid #616266;
+    width: 6rem;
+    margin-top: 8px;
+}
+
+.bg-primary .cv-head{
+    color: #bad4d9;
+}
+
+.bg-primary .cv-head:after{
+    border-top: 2px solid #bad4d9;
+}
+
+.basicInfo img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #dededd;
+}
+
+.bg-primary{
+    background-color: #142e58 !important;
+}
+
+.bg-grey{
+    background-color: #f5f5f5 !important;
+}
+
+.font-white{
+    color: #bad4d9 !important;
+}
+
+.font-body{
+     color: #616266 !important;
+}
+
+.introduction h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    /*border-bottom: 5px solid #ddd;*/
+}
+.introduction h1:after{
+    display: block;
+    content: "";
+    border-top: 5px solid #121212;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.introduction h2{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+.cv-section.summary{
+    padding-top: 25px;
+}
+.d-flex{
+    display: flex;
+} 
+.justify-center{
+    justify-content: center;
+} 
+
+.self-center{
+    align-self: center;
+}
+.experienceHeader h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.experienceHeader span{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+}
+.experienceHeader .duration{
+    color: #142e58;
+    font-weight: 600;
+}
+.experienceBody{
+    margin-top: 15px;
+}
+
+.experienceBody ul{
+    margin-left: -20px;
+    margin-bottom: 0;
+}
+.experience .experience-inner{
+    padding-bottom: 20px;
+}
+.experience .experience-inner:last-child{
+    padding-bottom: 0;
+}
+.languages p{
+    margin-bottom: 5px;
+}
+.tools .box{
+    display:inline-block;
+    padding: 5px 8px;
+    border: 1px solid #bad4d9;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.details .progress-container{
+    /* margin-bottom: 8px; */
+    width: fit-content;
+
+
+    display:inline-block;
+    padding: 5px 8px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+.mainer.bg-white .cv-head:after{
+    width: 100%;
+    border-width: 1px;
+    border-color: #c5c5c5;
+}
+
+
+.progress-bar {
+    height: 2px;
+    line-height: 1rem;
+    color: #fff;
+    background-color: #85baf3;
+    transition: width .6s ease;
+}
