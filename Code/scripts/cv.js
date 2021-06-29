@@ -44,42 +44,18 @@ function renderTools(){
 function renderTopSkills(){
   var skillset = [
     
-    {"skillname" : "C#", "level" : "90"},
-    {"skillname" : "TSQL", "level" : "90"},
+    {"skillname" : "C# / JS / MVC / TSQL / DOM", "level" : "90"},
     {"skillname" : ".NET Core", "level" : "90"},
-    {"skillname" : "MVC", "level" : "95"},
-    {"skillname" : "Java Script", "level" : "95"},
-    {"skillname" : "React", "level" : "80"},
-    {"skillname" : "Blazor", "level" : "20"},
-    {"skillname" : "Stripe", "level" : "80"},
-    {"skillname" : "WIQL", "level" : "95"},
-    {"skillname" : "GQL", "level" : "20"},
-    {"skillname" : "LINQ", "level" : "80"},
-    {"skillname" : "Mongo DB", "level" : "20"},
-    {"skillname" : "Node JS", "level" : "20"},
-    
-    {"skillname" : "JExcel", "level" : "90"},
-    {"skillname" : "DevExtreme", "level" : "85"},
-    {"skillname" : "Twilio", "level" : "95"},
-    
-    {"skillname" : "R&D", "level" : "99"},
-    {"skillname" : "Web API", "level" : "95"},
-    {"skillname" : "Azure Function API", "level" : "95"},
-    {"skillname" : "Azure AD/B2C", "level" : "85"},
-    {"skillname" : "Identity Server", "level" : "85"},
-    {"skillname" : "SSH", "level" : "50"},
-    {"skillname" : "Boiler Plate", "level" : "90"},
-    {"skillname" : "Team Work", "level" : "95"},
-    
-    
-    
-    {"skillname" : "Communication", "level" : "80"},
-    {"skillname" : "Database Management", "level" : "80"},
-    {"skillname" : "Team Management", "level" : "95"},
-    {"skillname" : "Scrum Teams Meeting", "level" : "95"},
-    {"skillname" : "Clean Architecture", "level" : "85"},
-    {"skillname" : "Agile Development", "level" : "70"},
-
+    {"skillname" : "Single Page & Progressive Web App Development", "level" : "90"},
+    {"skillname" : "Database Design & Management", "level" : "90"},
+    {"skillname" : "Application Architecture Design", "level" : "95"},
+    {"skillname" : "Research & Development", "level" : "99"},
+    {"skillname" : "Write Optimum & Clean Code", "level" : "90"},
+    {"skillname" : "Application Deployment & DevOps ", "level" : "89"},
+    {"skillname" : "Manage Development & Production Environment", "level" : "89"},
+    {"skillname" : "Communicaton & Team Management", "level" : "89"},
+    {"skillname" : "Discussing Client Requirement and BL", "level" : "89"},
+    {"skillname" : "Design & Develop Futuristic Application", "level" : "89"},  
 
   ]
   var skillsetsHtml = ``;

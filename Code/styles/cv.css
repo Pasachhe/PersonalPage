@@ -92,7 +92,10 @@ body{
     font-weight: normal;
 }
 
-
+.container{
+    width: 683pt !important;
+    height: 842pt !important;
+}
 .cv-section.summary{
     padding-top: 25px;
 }

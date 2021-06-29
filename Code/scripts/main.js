@@ -119,14 +119,27 @@ function renderExperience(){
 
 function renderOfficialProjects(){
   var projects = [ 
-// {"projectName":"","projectDesc":"", "tools":""},
-    {"projectName":"GB Care API Services","projectDesc":"Web API services for GB Care Client Application Data.", "tools":"VS19, .NET Core , TFS"},
+    // {"projectName":"","projectDesc":"", "tools":""},
+    {"projectName":"Spiralogics Store","projectDesc":"Web application to showcase in-house applications and offer them through subscriptions with techincal support to the customer.", "tools":"VS19, Sql Server, IdentityServer4, .Net Core 5.0, SQL, Azure Git, IIS, DevExtreme, Stripe"},
+    {"projectName":"Spiralogics CRM","projectDesc":"Customer relationship management application that provides an environment to successfully handle a business-customer relationship through interactions with customers and data analysis.", "tools":"VS19, Sql Server, Azure Board, WIQL, .Net Core 5.0, SQL, Azure Git, IIS, DevExtreme, JExcel"},
+    {"projectName":"Spiral Bot","projectDesc":"Application to generate and export their daily timesheet report as well as leaves report. This application also allows users to log in their daily activity hours.", "tools":"VS19, .Net Core 5.0, Sql Server, AzureBoard, WIQL, Slik Grid, JExcel, MS Teams Bot, Azure Git, IIS"},
+    {"projectName":"SpiralogicsPlus","projectDesc":"API for Mobile app developed to log hours in the azure board work items and see daily logs​.", "tools":"VS19, SQL Server, Web API, Azure Board, WIQL, IIS "},
+    {"projectName":"Spiralogics Time Tracking System","projectDesc":"Application designed to manage the timesheet of the Provider (Medical Practitioner) working for the respective Client (Work Provider). ", "tools":"VS19, .Net Core 3.1, React, DevExtreme, Azure Git, SQL Server"},
+    {"projectName":"Covid Vaccine Response System","projectDesc":"Develop application to allow site coordinators to track all appointments, check patients' details, study fact sheets regarding vaccines and send data (VXU) to the destined immunization registry.", "tools":"VS19, .Net Core 3.1 Web App, DevExtreme, Azure Git, SQL Server"},
+    {"projectName":"WalkSafer","projectDesc":"API for app designed to help deter criminals from approaching you when you are in a vulnerable location.", "tools":"IdentityServer4, .Net Core Web API, Twilio, Azure Git, AntMedia Server, SQL Server  "},
+
+    {"projectName":"FlyExclusive Admin Portal","projectDesc":"Web application developed to interface with flyExclusive legacy systems in order to update and manage the flyExclusive applications data.", "tools":"Azure Function API, Twilio, SendGrid, Azure AD/B2C, VS19, .Net Core 3.1, Azure Git, Azure Deployment, SQL Server"},
+    {"projectName":"FlyExclusive EL App","projectDesc":"Function API for multi-platform mobile application to track and display empty-legs and allow users to reserve those empty legs.", "tools":"Azure Function API, Twilio, SendGrid, Azure AD/B2C, VS19, .Net Core 3.1, Azure Git, Azure Deployment, SQL Server"},
+    {"projectName":"FlyExclusive Pilot App","projectDesc":"Function API for IOS based mobile application designed to guide pilot for their trips and compare performance among pilots to encourage better performance.", "tools":"Azure Function API, Twilio, SendGrid, Azure AD/B2C, VS19, .Net Core 3.1, Azure Git, Azure Deployment, SQL Server"},
+    {"projectName":"FlyExclusive Chat App","projectDesc":"Web Chat application developed to be integrated into flyExclusive Pilot application for communication between the pilot and dispatcher on the station.", "tools":"VS19, .NET Core, Twilio, .Net Core 3.1, Azure GIT, Azure Deployment"},
+    
+    {"projectName":"GB Care API Services","projectDesc":"Web API services for GB Care Client Application Data.", "tools":"VS19, SQL Server, .NET Core, TFS"},
     {"projectName":"Carisk","projectDesc":"Health care coordination application managing proposal to improve patient-centered outcomes and reduce overall cost of quality care.", "tools":"VS17, .NET Core 2.2, SQL, SVN (later Azure GIT), IIS, React"},
     {"projectName":"Med Mass Mail","projectDesc":"Subscription based bulk mailing system to the desired recipients.", "tools":"VS17, .NET Core 2.2, SQL,SVN, IIS, DevExtreme, SendGrid, Stripe"},
     {"projectName":"Cariboo Industrial Electronics Budget Planner","projectDesc":"Budget planning application for an electronic industry to deduce project construction budget.", "tools":"VS17, .NET Core 2.2, SQL, SVN, IIS , DevExtreme, JExcel"},
     {"projectName":"Restore Rehab Enterprise Data","projectDesc":"Health care enterprise data application for better and efficient referral management and insurance process.", "tools":"VS17, .NET Core 2.0, SQL, SVN, IIS, Docker, DevExtreme"}
 
-    ]
+  ]
   var projectsHtml = ``;
   
   projects.forEach(ele => {
